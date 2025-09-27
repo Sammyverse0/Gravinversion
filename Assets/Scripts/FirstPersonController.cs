@@ -112,7 +112,7 @@ namespace StarterAssets
 
 		private void Update()
 		{
-			JumpAndGravity();
+			//JumpAndGravity();
 			GroundedCheck();
 			Move();
 		}
@@ -184,7 +184,8 @@ namespace StarterAssets
 			}
 
 			// normalise input direction
-			Vector3 inputDirection = new Vector3(_input.move.x, 0.0f, _input.move.y).normalized;
+			// Only use the X input (left/right) for movement
+			Vector3 inputDirection = new Vector3(_input.move.x, 0.0f, 0.0f).normalized;
 
 			// note: Vector2's != operator uses approximation so is not floating point error prone, and is cheaper than magnitude
 			// if there is a move input rotate player when the player is moving
@@ -198,53 +199,53 @@ namespace StarterAssets
 			_controller.Move(inputDirection.normalized * (_speed * Time.deltaTime) + new Vector3(0.0f, _verticalVelocity, 0.0f) * Time.deltaTime);
 		}
 
-		private void JumpAndGravity()
-		{
-			if (Grounded)
-			{
-				// reset the fall timeout timer
-				_fallTimeoutDelta = FallTimeout;
+		// private void JumpAndGravity()
+		// {
+		// 	if (Grounded)
+		// 	{
+		// 		// reset the fall timeout timer
+		// 		_fallTimeoutDelta = FallTimeout;
 
-				// stop our velocity dropping infinitely when grounded
-				if (_verticalVelocity < 0.0f)
-				{
-					_verticalVelocity = -2f;
-				}
+		// 		// stop our velocity dropping infinitely when grounded
+		// 		if (_verticalVelocity < 0.0f)
+		// 		{
+		// 			_verticalVelocity = -2f;
+		// 		}
 
-				// Jump
-				if (_input.jump && _jumpTimeoutDelta <= 0.0f)
-				{
-					// the square root of H * -2 * G = how much velocity needed to reach desired height
-					_verticalVelocity = Mathf.Sqrt(JumpHeight * -2f * Gravity);
-				}
+		// 		// Jump
+		// 		if (_input.jump && _jumpTimeoutDelta <= 0.0f)
+		// 		{
+		// 			// the square root of H * -2 * G = how much velocity needed to reach desired height
+		// 			_verticalVelocity = Mathf.Sqrt(JumpHeight * -2f * Gravity);
+		// 		}
 
-				// jump timeout
-				if (_jumpTimeoutDelta >= 0.0f)
-				{
-					_jumpTimeoutDelta -= Time.deltaTime;
-				}
-			}
-			else
-			{
-				// reset the jump timeout timer
-				_jumpTimeoutDelta = JumpTimeout;
+		// 		// jump timeout
+		// 		if (_jumpTimeoutDelta >= 0.0f)
+		// 		{
+		// 			_jumpTimeoutDelta -= Time.deltaTime;
+		// 		}
+		// 	}
+		// 	else
+		// 	{
+		// 		// reset the jump timeout timer
+		// 		_jumpTimeoutDelta = JumpTimeout;
 
-				// fall timeout
-				if (_fallTimeoutDelta >= 0.0f)
-				{
-					_fallTimeoutDelta -= Time.deltaTime;
-				}
+		// 		// fall timeout
+		// 		if (_fallTimeoutDelta >= 0.0f)
+		// 		{
+		// 			_fallTimeoutDelta -= Time.deltaTime;
+		// 		}
 
-				// if we are not grounded, do not jump
-				_input.jump = false;
-			}
+		// 		// if we are not grounded, do not jump
+		// 		_input.jump = false;
+		// 	}
 
-			// apply gravity over time if under terminal (multiply by delta time twice to linearly speed up over time)
-			if (_verticalVelocity < _terminalVelocity)
-			{
-				_verticalVelocity += Gravity * Time.deltaTime;
-			}
-		}
+		// 	// apply gravity over time if under terminal (multiply by delta time twice to linearly speed up over time)
+		// 	if (_verticalVelocity < _terminalVelocity)
+		// 	{
+		// 		_verticalVelocity += Gravity * Time.deltaTime;
+		// 	}
+		// }
 
 		private static float ClampAngle(float lfAngle, float lfMin, float lfMax)
 		{
