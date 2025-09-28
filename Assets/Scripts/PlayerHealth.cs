@@ -9,8 +9,8 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] private bool killOnTrigger = false; // enable only if you add trigger obstacles
 
     [Header("Bounds Kill")]
-    [SerializeField] private float killYUpper = 10f;
-    [SerializeField] private float killYLower = -10f;
+    [SerializeField] private float killYUpper = 0.2f;
+    [SerializeField] private float killYLower = -0.2f;
 
     private bool isDead = false;
     private CharacterController controller;
