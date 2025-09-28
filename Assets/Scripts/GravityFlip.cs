@@ -9,7 +9,7 @@ public class GravityController : MonoBehaviour
     [Tooltip("The strength of the gravitational pull.")]
     public float gravityForce = 20.0f;
     [Tooltip("How long in seconds before the player can flip gravity again.")]
-    public float flipCooldown = 2.0f; // NEW: Cooldown duration
+    public float flipCooldown = 1.0f; // NEW: Cooldown duration
     [Tooltip("Layers that the character will consider as ground or ceiling.")]
     public LayerMask groundLayers;
 
