@@ -1,85 +1,109 @@
-using System.Collections.Generic;
 using UnityEngine;
+using System.Collections.Generic;
 
 public class LevelGenerator : MonoBehaviour
 {
     [Header("Level Settings")]
     public float moveSpeed = 12f;
-    public float chunkLength = 50f; 
-    public int startingChunks = 5;
+    public float chunkLength = 38.763f;
+    public int visibleChunks = 5;
+    public float despawnBuffer = 20f;
 
     [Header("Chunk Prefabs")]
-    [Tooltip("The first chunk that is already placed in the scene.")]
-    public GameObject startingChunk; // NEW: To hold our pre-placed chunk
-    [Tooltip("The list of prefabs to spawn randomly.")]
-    public GameObject[] chunkPrefabs; 
+    public GameObject startingChunk;
+    public GameObject[] chunkPrefabs;
 
+    // --- Private Variables ---
+    private List<GameObject> pooledChunks = new List<GameObject>();
     private List<GameObject> activeChunks = new List<GameObject>();
-    private Vector3 nextSpawnPoint; // CHANGED: We'll calculate this based on the startingChunk
+    private Quaternion chunkRotation;
+    private Vector3 moveDirection = Vector3.forward;
+
+    // REMOVED: We no longer need a static nextSpawnPoint variable.
 
     void Start()
     {
         Time.timeScale = 1f;
 
-        // --- NEW STARTING LOGIC ---
-        if (startingChunk == null)
-        {
-            Debug.LogError("The 'Starting Chunk' has not been assigned in the LevelGenerator Inspector!");
+        if (startingChunk == null || chunkPrefabs.Length == 0) {
+            Debug.LogError("FATAL ERROR: Starting Chunk or Chunk Prefabs are not assigned in the Inspector!");
             return;
         }
 
-        // 1. Add the pre-placed chunk to our active list
-        activeChunks.Add(startingChunk);
-        // 2. Set the next spawn point to be at the end of the starting chunk
-        nextSpawnPoint = startingChunk.transform.position + new Vector3(0, 0, chunkLength);
-
-        // 3. Spawn the rest of the runway, but one less than before
-        for (int i = 0; i < startingChunks - 1; i++)
+        // --- Pooling Logic ---
+        for (int i = 0; i < visibleChunks + 2; i++)
         {
-            if (chunkPrefabs.Length > 0)
-            {
-                SpawnChunk(Random.Range(0, chunkPrefabs.Length));
-            }
+            GameObject chunk = Instantiate(chunkPrefabs[Random.Range(0, chunkPrefabs.Length)]);
+            chunk.SetActive(false);
+            pooledChunks.Add(chunk);
+        }
+
+        // --- Initialization ---
+        chunkRotation = startingChunk.transform.rotation;
+        activeChunks.Add(startingChunk);
+        
+        // Spawn the initial runway of chunks.
+        for (int i = 0; i < visibleChunks - 1; i++)
+        {
+            SpawnChunk();
         }
     }
 
     void Update()
     {
-        if (activeChunks.Count == 0) return;
-
+        // 1. Move every active chunk.
         foreach (GameObject chunk in activeChunks)
         {
-            chunk.transform.position -= new Vector3(0, 0, moveSpeed * Time.deltaTime);
+            chunk.transform.position -= moveDirection * moveSpeed * Time.deltaTime;
         }
-        
-        if (activeChunks[0].transform.position.z < -chunkLength)
+
+        // 2. Check if the oldest chunk should be recycled.
+        if (activeChunks.Count > 0)
         {
-            RecycleOldestChunk();
+            GameObject oldestChunk = activeChunks[0];
+            if (Vector3.Dot(oldestChunk.transform.position, -moveDirection) > (chunkLength + despawnBuffer))
+            {
+                oldestChunk.SetActive(false);
+                activeChunks.RemoveAt(0);
+                SpawnChunk();
+            }
         }
     }
 
-    // --- The rest of the script is unchanged ---
-
-    void SpawnChunk(int prefabIndex)
+    void SpawnChunk()
     {
-        string chunkName = chunkPrefabs[prefabIndex].name;
-        GameObject nextChunk = ObjectPooler.Instance.SpawnFromPool(chunkName, nextSpawnPoint, Quaternion.identity);
-        
-        if (nextChunk != null)
+        GameObject chunkToSpawn = GetPooledChunk();
+
+        if (chunkToSpawn != null)
         {
-            activeChunks.Add(nextChunk);
-            nextSpawnPoint.z += chunkLength;
-        }
-        else
-        {
-            Debug.LogError("SPAWN FAILED: ObjectPooler returned null for tag: '" + chunkName + "'. Check your ObjectPooler setup!");
+            // --- THE CORE FIX IS HERE ---
+            // 1. Find the last chunk currently in the scene.
+            GameObject lastChunk = activeChunks[activeChunks.Count - 1];
+
+            // 2. Calculate the new spawn position based on the LAST CHUNK'S CURRENT position.
+            Vector3 spawnPosition = lastChunk.transform.position + moveDirection * chunkLength;
+
+            // 3. Position, rotate, and activate the new chunk.
+            chunkToSpawn.transform.position = spawnPosition;
+            chunkToSpawn.transform.rotation = chunkRotation;
+            chunkToSpawn.SetActive(true);
+
+            // 4. Add the new chunk to the active list.
+            activeChunks.Add(chunkToSpawn);
         }
     }
 
-    void RecycleOldestChunk()
+    // Helper method to find an available chunk from the pool.
+    GameObject GetPooledChunk()
     {
-        activeChunks.RemoveAt(0);
-        int randomIndex = Random.Range(0, chunkPrefabs.Length);
-        SpawnChunk(randomIndex);
+        foreach (GameObject chunk in pooledChunks)
+        {
+            if (!chunk.activeInHierarchy)
+            {
+                return chunk;
+            }
+        }
+        Debug.LogWarning("No inactive chunks available in the pool. Consider increasing the pool size.");
+        return null;
     }
 }

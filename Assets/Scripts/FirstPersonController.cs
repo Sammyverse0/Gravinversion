@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 #if ENABLE_INPUT_SYSTEM
 using UnityEngine.InputSystem;
 #endif
@@ -184,8 +184,7 @@ namespace StarterAssets
 			}
 
 			// normalise input direction
-			// Only use the X input (left/right) for movement
-			Vector3 inputDirection = new Vector3(_input.move.x, 0.0f, 0.0f).normalized;
+			Vector3 inputDirection = new Vector3(_input.move.x, 0.0f, _input.move.y).normalized;
 
 			// note: Vector2's != operator uses approximation so is not floating point error prone, and is cheaper than magnitude
 			// if there is a move input rotate player when the player is moving
