@@ -6,6 +6,7 @@ TagManager:
   tags:
   - CinemachineTarget
   - Obstacle
+  - Chunk_01
   layers:
   - Default
   - TransparentFX
