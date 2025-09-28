@@ -1,72 +1,78 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+[RequireComponent(typeof(CharacterController))]
 public class PlayerHealth : MonoBehaviour
 {
-    [Header("Player Stats")]
-    public int maxLives = 3;
-    [Tooltip("The X position the player resets to after taking damage.")]
-    public float resetXPosition = 1.88f;
+    [Header("Kill Conditions")]
+    [SerializeField] private string obstacleTag = "Obstacle";
+    [SerializeField] private bool killOnTrigger = false; // enable only if you add trigger obstacles
 
-    // --- Private Variables ---
-    private int currentLives;
-    private CharacterController characterController;
+    [Header("Bounds Kill")]
+    [SerializeField] private float killYUpper = 10f;
+    [SerializeField] private float killYLower = -10f;
 
-    void Start()
+    private bool isDead = false;
+    private CharacterController controller;
+
+    void Awake()
     {
-        // Get references to other components on the player
-        characterController = GetComponent<CharacterController>();
-        
-        currentLives = maxLives;
-        
-        // Update the UI with the starting number of lives
-        if (ScoreManager.Instance != null)
+        controller = GetComponent<CharacterController>();
+        if (controller == null)
+            Debug.LogError("PlayerHealth requires a CharacterController on the same GameObject.");
+    }
+
+    void Update()
+    {
+        if (!isDead && (transform.position.y > killYUpper || transform.position.y < killYLower))
         {
-            ScoreManager.Instance.UpdateLivesText(currentLives);
+            Die("Bounds");
         }
     }
 
+    // Fires on NON-TRIGGER colliders when moving via CharacterController.Move/SimpleMove
     void OnControllerColliderHit(ControllerColliderHit hit)
     {
-        // Check if the object we collided with has the "Obstacle" tag
-        if (hit.gameObject.CompareTag("Obstacle"))
+        // Debug visuals
+        Debug.DrawRay(hit.point, hit.normal, Color.blue, 2f);
+        string parentName = hit.transform.parent ? hit.transform.parent.name : "No Parent";
+        Debug.LogWarning($"IMPACT DETECTED! Hit Object: '{hit.gameObject.name}' | With Tag: '{hit.gameObject.tag}' | Parent: '{parentName}'");
+
+        if (!isDead && hit.collider != null && hit.collider.isTrigger == false && hit.gameObject.CompareTag(obstacleTag))
         {
-            TakeDamage();
+            Die($"Collision:{hit.gameObject.name}");
         }
     }
 
-    void TakeDamage()
+    // Optional: enable if you decide to use trigger obstacles.
+    void OnTriggerEnter(Collider other)
     {
-        // Safety check to prevent taking damage multiple times while already dying
-        if (currentLives <= 0) return;
+        if (!killOnTrigger || isDead) return;
 
-        currentLives--;
-
-        // Update the UI with the new number of lives
-        if (ScoreManager.Instance != null)
+        // Note: CharacterController does NOT register trigger events for other triggers by itself.
+        // If you want this path, add a separate trigger collider to the player (and usually a kinematic Rigidbody on the obstacle or the player).
+        if (other != null && other.gameObject.CompareTag(obstacleTag))
         {
-            ScoreManager.Instance.UpdateLivesText(currentLives);
-        }
-
-        if (currentLives > 0)
-        {
-            // --- Reset player state ---
-            // NOTE: This version is missing the momentum reset, which may cause a sliding bug.
-            characterController.enabled = false;
-            Vector3 resetPosition = new Vector3(resetXPosition, transform.position.y, transform.position.z);
-            transform.position = resetPosition;
-            characterController.enabled = true;
-        }
-        else
-        {
-            // If no lives are left, call the Die function
-            Die();
+            Debug.Log($"Trigger with '{other.gameObject.name}' (tag {other.gameObject.tag})");
+            Die($"Trigger:{other.gameObject.name}");
         }
     }
 
-    void Die()
+    private void Die(string reason)
     {
-        Debug.Log("Game Over!");
-        Time.timeScale = 0f; // Pause the game
+        if (isDead) return;
+        isDead = true;
+
+        Debug.Log($"Game Over! Reason = {reason}");
+
+        // It’s safest to switch scenes BEFORE pausing time.
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+
+        // If your GameOver scene relies on normal time, reset there (e.g., in a bootstrap script),
+        // or just avoid pausing here:
+        // Time.timeScale = 0f;
+
+        SceneManager.LoadScene("GameOver");
     }
 }
