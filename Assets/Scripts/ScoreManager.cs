@@ -45,4 +45,10 @@ public class ScoreManager : MonoBehaviour
             livesText.text = "Lives: " + currentLives;
         }
     }
+
+    // Add this function inside your ScoreManager.cs class
+    public int GetCurrentScore()
+    {
+        return score;
+    }
 }

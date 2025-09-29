@@ -51,16 +51,16 @@ namespace StarterAssets
 		[Tooltip("How far in degrees can you move the camera down")]
 		public float BottomClamp = -90.0f;
 
-		// cinemachine
+		
 		private float _cinemachineTargetPitch;
 
-		// player
+		
 		private float _speed;
 		private float _rotationVelocity;
 		private float _verticalVelocity;
 		private float _terminalVelocity = 53.0f;
 
-		// timeout deltatime
+		
 		private float _jumpTimeoutDelta;
 		private float _fallTimeoutDelta;
 
@@ -88,7 +88,7 @@ namespace StarterAssets
 
 		private void Awake()
 		{
-			// get a reference to our main camera
+			
 			if (_mainCamera == null)
 			{
 				_mainCamera = GameObject.FindGameObjectWithTag("MainCamera");
@@ -105,14 +105,14 @@ namespace StarterAssets
 			Debug.LogError( "Starter Assets package is missing dependencies. Please use Tools/Starter Assets/Reinstall Dependencies to fix it");
 #endif
 
-			// reset our timeouts on start
+			
 			_jumpTimeoutDelta = JumpTimeout;
 			_fallTimeoutDelta = FallTimeout;
 		}
 
 		private void Update()
 		{
-			//JumpAndGravity();
+			
 			GroundedCheck();
 			Move();
 		}
@@ -190,61 +190,16 @@ namespace StarterAssets
 			// if there is a move input rotate player when the player is moving
 			if (_input.move != Vector2.zero)
 			{
-				// move
-				inputDirection = transform.right * _input.move.x + transform.forward * _input.move.y;
+				// --- THE FIX IS HERE ---
+				// We now only use the X input (left/right) for movement and ignore the Y input (forward/backward).
+				inputDirection = transform.right * _input.move.x;
 			}
 
 			// move the player
 			_controller.Move(inputDirection.normalized * (_speed * Time.deltaTime) + new Vector3(0.0f, _verticalVelocity, 0.0f) * Time.deltaTime);
 		}
 
-		// private void JumpAndGravity()
-		// {
-		// 	if (Grounded)
-		// 	{
-		// 		// reset the fall timeout timer
-		// 		_fallTimeoutDelta = FallTimeout;
-
-		// 		// stop our velocity dropping infinitely when grounded
-		// 		if (_verticalVelocity < 0.0f)
-		// 		{
-		// 			_verticalVelocity = -2f;
-		// 		}
-
-		// 		// Jump
-		// 		if (_input.jump && _jumpTimeoutDelta <= 0.0f)
-		// 		{
-		// 			// the square root of H * -2 * G = how much velocity needed to reach desired height
-		// 			_verticalVelocity = Mathf.Sqrt(JumpHeight * -2f * Gravity);
-		// 		}
-
-		// 		// jump timeout
-		// 		if (_jumpTimeoutDelta >= 0.0f)
-		// 		{
-		// 			_jumpTimeoutDelta -= Time.deltaTime;
-		// 		}
-		// 	}
-		// 	else
-		// 	{
-		// 		// reset the jump timeout timer
-		// 		_jumpTimeoutDelta = JumpTimeout;
-
-		// 		// fall timeout
-		// 		if (_fallTimeoutDelta >= 0.0f)
-		// 		{
-		// 			_fallTimeoutDelta -= Time.deltaTime;
-		// 		}
-
-		// 		// if we are not grounded, do not jump
-		// 		_input.jump = false;
-		// 	}
-
-		// 	// apply gravity over time if under terminal (multiply by delta time twice to linearly speed up over time)
-		// 	if (_verticalVelocity < _terminalVelocity)
-		// 	{
-		// 		_verticalVelocity += Gravity * Time.deltaTime;
-		// 	}
-		// }
+		// (The rest of the script is unchanged)
 
 		private static float ClampAngle(float lfAngle, float lfMin, float lfMax)
 		{
