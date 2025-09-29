@@ -48,7 +48,7 @@ public class GravityController : MonoBehaviour
         }
 
         // NEW: Check for input AND if the cooldown is over
-        if (Keyboard.current.fKey.wasPressedThisFrame && _cooldownTimer <= 0)
+        if (Keyboard.current.spaceKey.wasPressedThisFrame && _cooldownTimer <= 0)
         {
             FlipGravity();
         }
