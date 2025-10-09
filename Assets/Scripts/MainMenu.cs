@@ -1,10 +1,14 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.InputSystem;
+
 public class MainMenu : MonoBehaviour
 {
     public GameObject pausePanel;
     private bool isPaused = false;
+
+    // Key for the intro video PlayerPrefs
+    private const string VideoPlayedKey = "IntroVideoPlayed";
 
     void Start()
     {
@@ -19,9 +23,7 @@ public class MainMenu : MonoBehaviour
         // Check if the Escape key was pressed
         if (Keyboard.current.escapeKey.wasPressedThisFrame)
         {
-            
-                PauseGame();
-            
+            PauseGame();
         }
     }
 
@@ -50,13 +52,13 @@ public class MainMenu : MonoBehaviour
             pausePanel.SetActive(false);
         }
     }
+
     // Called by Play Button
     public void PlayGame()
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
         SceneManager.LoadScene("MainScene"); // replace with your gameplay scene name
-
     }
 
     // Called by Settings Button
@@ -70,15 +72,28 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene("MainMenu");
     }
 
-
-
     // Called by Quit Button
     public void QuitGame()
     {
 #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false; // stop in editor
 #else
-            Application.Quit(); // quit in build
+        Application.Quit(); // quit in build
 #endif
+    }
+
+    public void StoryScene()
+    {
+        SceneManager.LoadScene("IntroVideo");
+    }
+
+
+    // Optional: Reset and immediately go to the video scene
+    public void ResetAndPlayIntroVideo()
+    {
+        PlayerPrefs.DeleteKey(VideoPlayedKey);
+        PlayerPrefs.Save();
+        Debug.Log("Intro video reset. Loading video scene now.");
+        SceneManager.LoadScene("IntroVideo");
     }
 }
