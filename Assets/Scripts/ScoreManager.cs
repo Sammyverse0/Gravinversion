@@ -12,6 +12,7 @@ public class ScoreManager : MonoBehaviour
     public TextMeshProUGUI livesText; // Reference for the lives text
 
     private int score = 0;
+    
 
     private void Awake()
     {

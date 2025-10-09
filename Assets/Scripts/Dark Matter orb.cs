@@ -12,40 +12,40 @@ public class DarkMatterOrb : MonoBehaviour
         {
             Debug.Log("Collision detected with dark matter orb");
             
-            // Activate the web
+            
             if (darkWebObject != null)
             {
                 darkWebObject.SetActive(true);
                 
-                // Start coroutine on the web itself (since it's now active)
+                
                 MonoBehaviour webMono = darkWebObject.GetComponent<MonoBehaviour>();
                 if (webMono == null)
                 {
-                    // If web has no MonoBehaviour, add the auto-destroy component
+                    
                     WebAutoDestroy autoDestroy = darkWebObject.AddComponent<WebAutoDestroy>();
                     autoDestroy.lifetime = webDuration;
                 }
                 else
                 {
-                    // Or start coroutine on the web's existing component
+                    
                     webMono.StartCoroutine(DeactivateAfterDelay(darkWebObject, webDuration));
                 }
             }
             
-            Destroy(gameObject); // Destroy the orb
+            Destroy(gameObject); 
         }
     }
 
     IEnumerator DeactivateAfterDelay(GameObject web, float delay)
     {
         yield return new WaitForSeconds(delay);
-        web.SetActive(false); // Deactivate instead of destroy
+        web.SetActive(false); 
     }
 }
 
 public class WebAutoDestroy : MonoBehaviour
 {
-    public float lifetime = 5f;
+    public float lifetime = 10f;
     
     void Start()
     {
