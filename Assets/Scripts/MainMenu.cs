@@ -5,6 +5,9 @@ using UnityEngine.InputSystem;
 public class MainMenu : MonoBehaviour
 {
     public GameObject pausePanel;
+    public GameObject aboutPanel;
+
+    private bool AboutOpen = false;
     private bool isPaused = false;
 
     // Key for the intro video PlayerPrefs
@@ -95,5 +98,22 @@ public class MainMenu : MonoBehaviour
         PlayerPrefs.Save();
         Debug.Log("Intro video reset. Loading video scene now.");
         SceneManager.LoadScene("IntroVideo");
+    }
+
+    public void About()
+    {
+        if (aboutPanel != null)
+        {
+            aboutPanel.SetActive(true);
+        }
+
+    }
+
+    public void closeabout()
+    {
+        if (aboutPanel != null)
+        {
+            aboutPanel.SetActive(false);
+        }
     }
 }
