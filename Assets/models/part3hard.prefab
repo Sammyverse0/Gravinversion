@@ -1768,6 +1768,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4578772328420430622}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6727399321291802399}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!1 &4660476677136184906 stripped
 GameObject:
@@ -1787,6 +1790,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &6727399321291802399
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4660476677136184906}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &5469206634054135024 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5361863269206527960, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
@@ -1867,6 +1891,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 447202985012060970}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4212252175086723538}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!1 &4849412284986322233 stripped
 GameObject:
@@ -1886,6 +1913,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &4212252175086723538
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4849412284986322233}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &5190190123747522435 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5361863269206527960, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
@@ -1966,6 +2014,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3316119672614025800}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 9085163336256479459}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!1 &4766918405869208046 stripped
 GameObject:
@@ -1985,6 +2036,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &9085163336256479459
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4766918405869208046}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &5290796782063410004 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5361863269206527960, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
@@ -2065,6 +2137,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4781697971148849122}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 986026552964840926}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!1 &5036293027007801029 stripped
 GameObject:
@@ -2084,6 +2159,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &986026552964840926
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5036293027007801029}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &5669840063952059519 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5361863269206527960, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
@@ -2164,6 +2260,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8217384820034399452}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4124520285046057931}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!1 &5170702841033891616 stripped
 GameObject:
@@ -2183,6 +2282,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &4124520285046057931
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5170702841033891616}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &5515175038239491482 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5361863269206527960, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
@@ -2263,6 +2383,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1966981366449793328}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2207316277617297046}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!1 &5059590241985594941 stripped
 GameObject:
@@ -2282,6 +2405,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &2207316277617297046
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5059590241985594941}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &5583502737383218311 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5361863269206527960, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
@@ -2362,6 +2506,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7476106756359793721}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3009406401187295040}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!4 &4790691229800329582 stripped
 Transform:
@@ -2386,6 +2533,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &3009406401187295040
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5273755734153341908}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &596222749805642762
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2461,6 +2629,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1404003490176055184}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5592428501913513450}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!4 &4769064970650979282 stripped
 Transform:
@@ -2485,6 +2656,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &5592428501913513450
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5288580552886669672}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &681791720209828968
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2560,6 +2752,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8799108796254515648}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 439122676078546016}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!4 &4836619473684120496 stripped
 Transform:
@@ -2584,6 +2779,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &439122676078546016
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5212018704427882762}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &918695370442306510
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2659,6 +2875,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1338461813654106967}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4676609408044128724}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!4 &5104538456118754326 stripped
 Transform:
@@ -2683,6 +2902,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &4676609408044128724
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5592668105818449580}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1007775528864525142
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2758,6 +2998,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 6998710334717511020}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2843594912568299629}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!4 &5158166100152165518 stripped
 Transform:
@@ -2782,6 +3025,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &2843594912568299629
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5539053783792254516}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1021219015343520460
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2857,6 +3121,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1958741380577640742}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 366173492547396599}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!4 &4919394743431574804 stripped
 Transform:
@@ -2881,6 +3148,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &366173492547396599
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5696741095968993198}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1054108030555889159
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3034,6 +3322,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3442588494528527785}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8425329202418375765}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!1 &5853383203809310962 stripped
 GameObject:
@@ -3053,6 +3344,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &8425329202418375765
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5853383203809310962}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &6516908421881193032 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5361863269206527960, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
@@ -3133,6 +3445,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3712224119650484186}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5869616122206432967}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!1 &5982588150133892583 stripped
 GameObject:
@@ -3152,6 +3467,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &5869616122206432967
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5982588150133892583}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &6362949197427212125 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5361863269206527960, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
@@ -3232,6 +3568,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4709105370540888938}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 592529616104104454}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!1 &6071298581787954034 stripped
 GameObject:
@@ -3251,6 +3590,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &592529616104104454
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6071298581787954034}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &6848362359019114952 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5361863269206527960, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
@@ -3331,6 +3691,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5402698430686748273}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8599716315634054590}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!1 &6260734209425153421 stripped
 GameObject:
@@ -3350,6 +3713,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &8599716315634054590
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6260734209425153421}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &6749004935424919351 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5361863269206527960, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
@@ -3508,6 +3892,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1608168119428351289}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 140984427493218488}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!4 &6002589339443332919 stripped
 Transform:
@@ -3532,6 +3919,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &140984427493218488
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6342945828421852557}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1902737582725494164
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3685,6 +4093,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4598959071066662495}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3200761980996711503}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!4 &5884615024837224659 stripped
 Transform:
@@ -3709,6 +4120,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &3200761980996711503
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6548667630464086633}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &2059189301143560286
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4015,6 +4447,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5209126109405391599}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1217917398695315981}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!4 &6153254601576997268 stripped
 Transform:
@@ -4039,6 +4474,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &1217917398695315981
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6786661691577383726}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &2381624220404743942
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4114,6 +4570,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 6199723977190984644}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5446093292903637256}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!1 &6930969511739107940 stripped
 GameObject:
@@ -4133,6 +4592,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &5446093292903637256
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6930969511739107940}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &7738328339294056670 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5361863269206527960, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
@@ -4213,6 +4693,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1015551791569197540}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7597301193060212775}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!1 &6922634578673870417 stripped
 GameObject:
@@ -4232,6 +4715,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &7597301193060212775
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6922634578673870417}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &7735481927397899499 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5361863269206527960, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
@@ -4312,6 +4816,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8947401693165275084}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2216657519127130853}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!1 &7176110793135240960 stripped
 GameObject:
@@ -4331,6 +4838,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &2216657519127130853
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7176110793135240960}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &7556329969658129850 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5361863269206527960, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
@@ -4411,6 +4939,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 398055487959687693}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5842209082086169810}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!1 &7194258294628375450 stripped
 GameObject:
@@ -4430,6 +4961,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &5842209082086169810
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7194258294628375450}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &7538167477521023264 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5361863269206527960, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
@@ -4510,6 +5062,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2732220270038913234}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8229882083861364639}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!1 &7079644230634732556 stripped
 GameObject:
@@ -4529,6 +5084,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &8229882083861364639
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7079644230634732556}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &7598736162128144054 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5361863269206527960, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
@@ -4609,6 +5185,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3224594060729465938}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7920323748615187101}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!1 &7232263544902918255 stripped
 GameObject:
@@ -4628,6 +5207,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &7920323748615187101
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7232263544902918255}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &8004578569995057877 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5361863269206527960, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
@@ -4858,6 +5458,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2411748311038272611}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4415502585004509654}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!4 &7368902811218118537 stripped
 Transform:
@@ -4882,6 +5485,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &4415502585004509654
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7856611721626574131}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &3216940888180519574
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4957,6 +5581,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3818028064638335655}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7118911943821071961}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!4 &7407845851477376334 stripped
 Transform:
@@ -4981,6 +5608,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &7118911943821071961
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7892035121880541172}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &3279784796968261126
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5131,6 +5779,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 6520927248073264366}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4417644616776827931}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!4 &7487009695461725693 stripped
 Transform:
@@ -5155,6 +5806,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &4417644616776827931
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7830883488295718727}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &3320205091618839528
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5386,6 +6058,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4362541475354776217}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2506042828719964011}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!1 &8502107767241142632 stripped
 GameObject:
@@ -5405,6 +6080,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &2506042828719964011
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8502107767241142632}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &9130587941151648722 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5361863269206527960, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
@@ -5485,6 +6181,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5294823063643735910}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3628129833108545277}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!1 &8386088490013147059 stripped
 GameObject:
@@ -5504,6 +6203,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &3628129833108545277
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8386088490013147059}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &9163294310346122505 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5361863269206527960, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
@@ -5584,6 +6304,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5262225550892097749}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3785711128172616780}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!4 &8241122686888908564 stripped
 Transform:
@@ -5608,6 +6331,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &3785711128172616780
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8725031340973313454}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &4066612240458582640
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5758,6 +6502,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3903239980971963445}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 9097380810179729068}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!4 &8271472255852672822 stripped
 Transform:
@@ -5782,6 +6529,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &9097380810179729068
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8755556905334123916}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &4198863129129335962
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5857,6 +6625,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5432491967698321110}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4577087409641105742}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!4 &8082960744938222402 stripped
 Transform:
@@ -5881,6 +6652,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &4577087409641105742
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8892253372586420728}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &4316428862462900294
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6638,6 +7430,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2479925638830642434}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3408202899935137581}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!4 &8392955990613137275 stripped
 Transform:
@@ -6662,6 +7457,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &3408202899935137581
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9165412028339965377}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &4521333026165450626
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6815,6 +7631,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3830773179381546449}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4569706119358206430}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!4 &8456838829092643612 stripped
 Transform:
@@ -6839,6 +7658,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &4569706119358206430
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9085848108536723878}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &4696566624938708387
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6914,6 +7754,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5316243825462552479}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2888650921692856177}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!1 &4350658032965825 stripped
 GameObject:
@@ -6933,6 +7776,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &2888650921692856177
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4350658032965825}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &811954470973358715 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5361863269206527960, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
@@ -7169,6 +8033,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4981350261923299654}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 9210855865112238219}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!1 &402657601379542820 stripped
 GameObject:
@@ -7188,6 +8055,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &9210855865112238219
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 402657601379542820}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &1071107222792502686 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5361863269206527960, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
@@ -7268,6 +8156,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 3102376956024406440}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7457010789801667401}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!1 &348670169446715554 stripped
 GameObject:
@@ -7287,6 +8178,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &7457010789801667401
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 348670169446715554}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &1125170962360551960 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5361863269206527960, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
@@ -7367,6 +8279,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8443981596124128401}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7903885828263545989}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!1 &555231537168467905 stripped
 GameObject:
@@ -7386,6 +8301,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &7903885828263545989
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 555231537168467905}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &936542601504693627 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5361863269206527960, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
@@ -7541,6 +8477,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8373138953746222996}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8157944451081814917}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!1 &498789065125997785 stripped
 GameObject:
@@ -7560,6 +8499,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &8157944451081814917
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 498789065125997785}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &983999889188812387 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5361863269206527960, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
@@ -7640,6 +8600,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7932751327295866086}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8318292966922694046}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!4 &272810307729656783 stripped
 Transform:
@@ -7664,6 +8627,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &8318292966922694046
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 613306671447069045}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &5356233950016791331
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7817,6 +8801,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2630090780696361169}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 639135065202147723}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!4 &47184711680296375 stripped
 Transform:
@@ -7841,6 +8828,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &639135065202147723
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 859187601657618189}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &5532353887135332959
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7994,6 +9002,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7004262122524319439}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2619888585798440680}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!4 &534924079209626285 stripped
 Transform:
@@ -8018,6 +9029,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &2619888585798440680
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 875877771042611223}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &5762467236886277408
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8093,6 +9125,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4327718773794306153}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2754695150128722527}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!4 &401189080838955768 stripped
 Transform:
@@ -8117,6 +9152,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &2754695150128722527
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1070343763745552450}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &5898738868326495464
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8192,6 +9248,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4220197921779583681}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 958598868385360459}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!1 &1224553792873603466 stripped
 GameObject:
@@ -8211,6 +9270,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &958598868385360459
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1224553792873603466}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &1996692789339290416 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5361863269206527960, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
@@ -8291,6 +9371,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1618668199293984869}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5634440398752784378}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!1 &1307310292390615287 stripped
 GameObject:
@@ -8310,6 +9393,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &5634440398752784378
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1307310292390615287}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &1832876418730017357 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5361863269206527960, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
@@ -8390,6 +9494,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2603716443939343913}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3426347982504464995}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!1 &1347991446936841495 stripped
 GameObject:
@@ -8409,6 +9516,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &3426347982504464995
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1347991446936841495}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &1873171682997254061 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5361863269206527960, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
@@ -8489,6 +9617,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 6955266482800326348}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1963895918617972389}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!4 &1312704924620872861 stripped
 Transform:
@@ -8513,6 +9644,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &1963895918617972389
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1836477438710679079}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &6402820757330664202
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8588,6 +9740,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8437924902242665815}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 497395443922033012}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!4 &1347220267498476754 stripped
 Transform:
@@ -8612,6 +9767,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &497395443922033012
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1871695476907331176}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &6404404525729550126
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8687,6 +9863,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 9053509009684837399}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6665877841867095731}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!4 &1335363227768750326 stripped
 Transform:
@@ -8711,6 +9890,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &6665877841867095731
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1856601710705171020}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &6461964925851319834
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8786,6 +9986,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 6323595690375989818}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5602727900454729413}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!4 &1424449065724391874 stripped
 Transform:
@@ -8810,6 +10013,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &5602727900454729413
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1769765447627172728}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &6543714201341764836
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8885,6 +10109,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 6849001261636212227}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7489128924550479993}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!4 &1199887527211871036 stripped
 Transform:
@@ -8909,6 +10136,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &7489128924550479993
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2012277759146127750}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &6853933214083576612
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8984,6 +10232,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7277678052960833110}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4888648982404788332}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!4 &1546746563399187708 stripped
 Transform:
@@ -9008,6 +10259,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &4888648982404788332
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2178886118685451846}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &6921805952384964294
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9158,6 +10430,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2216298755173319798}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 855672061182756008}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!1 &2538666606297652415 stripped
 GameObject:
@@ -9177,6 +10452,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &855672061182756008
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2538666606297652415}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &2914101085573793285 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5361863269206527960, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
@@ -9257,6 +10553,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4651752694503545338}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4839393191541282943}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!1 &2484554757019573709 stripped
 GameObject:
@@ -9276,6 +10575,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &4839393191541282943
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2484554757019573709}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &2968217194386212727 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5361863269206527960, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
@@ -9356,6 +10676,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8436375551963726238}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7604331839412386973}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!1 &2519657390290796506 stripped
 GameObject:
@@ -9375,6 +10698,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &7604331839412386973
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2519657390290796506}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &3007366231688226144 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5361863269206527960, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
@@ -9455,6 +10799,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4619742497708719773}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5297715875540751163}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!1 &2706394572681036296 stripped
 GameObject:
@@ -9474,6 +10821,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &5297715875540751163
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2706394572681036296}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &3370059398037805234 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5361863269206527960, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
@@ -9554,6 +10922,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8708404375878186127}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4089924107006948978}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!1 &2846852656085571153 stripped
 GameObject:
@@ -9573,6 +10944,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &4089924107006948978
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2846852656085571153}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &3227354445485165803 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5361863269206527960, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
@@ -9653,6 +11045,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 6913993450610825777}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8667958048622424949}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!4 &2483970610056139824 stripped
 Transform:
@@ -9677,6 +11072,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &8667958048622424949
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2968723964267351690}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &7532142104743659294
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9983,6 +11399,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5232850854158527560}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2759393620672112915}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!4 &2585320016965006755 stripped
 Transform:
@@ -10007,6 +11426,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &2759393620672112915
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2930495867319725849}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &7611289043553565430
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10082,6 +11522,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 324235999483090218}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7174146775667711084}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!4 &2578751910623327534 stripped
 Transform:
@@ -10106,6 +11549,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &7174146775667711084
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2918967662700687252}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &7680809372764859836
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10334,6 +11798,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 715340434752895069}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7878686750779638882}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!4 &2623846392763723838 stripped
 Transform:
@@ -10358,6 +11825,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &7878686750779638882
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3396302121055775364}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &7950666097547248158
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10433,6 +11921,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 892444667714003776}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4733091410717699971}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!4 &2611905869986565574 stripped
 Transform:
@@ -10457,6 +11948,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &4733091410717699971
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3419509888298964860}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &7975902053099570773
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10532,6 +12044,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8935118657363440083}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5053740114792175288}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!4 &2655209069115738509 stripped
 Transform:
@@ -10556,6 +12071,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &5053740114792175288
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3428050996590957367}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &8183069957009216544
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10631,6 +12167,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1180555296739674923}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 737470776208109029}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!1 &3509113717939880258 stripped
 GameObject:
@@ -10650,6 +12189,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &737470776208109029
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3509113717939880258}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &4321539163459525624 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5361863269206527960, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
@@ -10730,6 +12290,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5340313530566548124}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1722368072500859044}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!1 &3695925554232683444 stripped
 GameObject:
@@ -10749,6 +12312,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &1722368072500859044
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3695925554232683444}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &4035577217938600206 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5361863269206527960, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
@@ -10829,6 +12413,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5659624153353330497}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2442400859269820137}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!1 &3738492701245806947 stripped
 GameObject:
@@ -10848,6 +12435,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &2442400859269820137
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3738492701245806947}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &4083106667352671193 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5361863269206527960, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
@@ -10928,6 +12536,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 6849519955741579097}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7209751852582835690}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!1 &3639845531637718684 stripped
 GameObject:
@@ -10947,6 +12558,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &7209751852582835690
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3639845531637718684}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &4163723632939320358 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5361863269206527960, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
@@ -11180,6 +12812,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2654207167039645414}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7342407525402585570}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!1 &3926574983081369733 stripped
 GameObject:
@@ -11199,6 +12834,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &7342407525402585570
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3926574983081369733}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!4 &4410765147026520639 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5361863269206527960, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
@@ -11279,6 +12935,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8189050079407130644}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6760848301770337675}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!4 &3678622709153178328 stripped
 Transform:
@@ -11303,6 +12962,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &6760848301770337675
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4055147805783816290}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &8829517395209622027
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11378,6 +13058,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4446341389085865260}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 57089097970371275}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!4 &3522260719244352979 stripped
 Transform:
@@ -11402,6 +13085,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &57089097970371275
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4299325601085343593}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &8835404601751065370
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11555,6 +13259,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1743203550769176514}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4954899727032167093}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!4 &3500758025527405336 stripped
 Transform:
@@ -11579,6 +13286,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &4954899727032167093
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4314132113421562274}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &9132063344301134130
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11654,6 +13382,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2276226230087739751}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4125018692138164750}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!4 &3806299276291235562 stripped
 Transform:
@@ -11678,6 +13409,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &4125018692138164750
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4582801482534487120}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &9161859958627530255
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11753,6 +13505,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5115564300748916694}
+    - targetCorrespondingSourceObject: {fileID: 4693589261242684770, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5969786117165774323}
   m_SourcePrefab: {fileID: 100100000, guid: 367b61e324f46cf45b1a5a38f33aaefb, type: 3}
 --- !u!4 &3840547021985118679 stripped
 Transform:
@@ -11777,3 +13532,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Coin
   scoreValue: 20
+--- !u!135 &5969786117165774323
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4469696768399582061}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2.21
+  m_Center: {x: 0, y: 0, z: 0}
